@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\controllers\\itemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\Desktop\\\u0431\u0434 \u043A\u0443\u0440\u0441\u0430\u0447\\Web\\Cursovaia\\Front-end\\build\\asset-manifest.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\controllers\\imageuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\controllers\\imageuploadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\shopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\updateprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\updateprofilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|c:\\users\\user\\desktop\\project\\bd\\web\\cursovaia\\back-end\\back-end\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4D3BC08-BE9F-4987-AB2F-CC8138F67D86}|Back-end\\Back-end.csproj|solutionrelative:back-end\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Back-end\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Back-end\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T20:55:44.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Back-end\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Back-end\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAIcAAAAAAAAAAAAAAJ4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T20:55:28.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Program.cs",
+              "RelativeDocumentMoniker": "Back-end\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Program.cs",
+              "RelativeToolTip": "Back-end\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T11:27:55.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Back-end\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Back-end\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwF4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T21:14:14.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "asset-manifest.json",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u0431\u0434 \u043A\u0443\u0440\u0441\u0430\u0447\\Web\\Cursovaia\\Front-end\\build\\asset-manifest.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\\u0431\u0434 \u043A\u0443\u0440\u0441\u0430\u0447\\Web\\Cursovaia\\Front-end\\build\\asset-manifest.json",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u0431\u0434 \u043A\u0443\u0440\u0441\u0430\u0447\\Web\\Cursovaia\\Front-end\\build\\asset-manifest.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\\u0431\u0434 \u043A\u0443\u0440\u0441\u0430\u0447\\Web\\Cursovaia\\Front-end\\build\\asset-manifest.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-26T04:42:59.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\Category.cs",
+              "RelativeToolTip": "Back-end\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:19:13.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\CartItem.cs",
+              "RelativeToolTip": "Back-end\\Models\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:19:10.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\Cart.cs",
+              "RelativeToolTip": "Back-end\\Models\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:19:01.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\Item.cs",
+              "RelativeToolTip": "Back-end\\Models\\Item.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:06:56.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\ItemsController.cs",
+              "RelativeDocumentMoniker": "Back-end\\Controllers\\ItemsController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\ItemsController.cs",
+              "RelativeToolTip": "Back-end\\Controllers\\ItemsController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:07:40.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UpdateProfileModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\UpdateProfileModel.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\UpdateProfileModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\UpdateProfileModel.cs",
+              "RelativeToolTip": "Back-end\\Models\\UpdateProfileModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:18:40.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "Back-end\\Models\\RegisterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:18:37.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ImageUploadController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\ImageUploadController.cs",
+              "RelativeDocumentMoniker": "Back-end\\Controllers\\ImageUploadController.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Controllers\\ImageUploadController.cs",
+              "RelativeToolTip": "Back-end\\Controllers\\ImageUploadController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T21:37:41.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\User.cs",
+              "RelativeToolTip": "Back-end\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:00:43.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ShopContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\ShopContext.cs",
+              "RelativeDocumentMoniker": "Back-end\\ShopContext.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\ShopContext.cs",
+              "RelativeToolTip": "Back-end\\ShopContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:09:37.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Back-end\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\project\\bd\\Web\\Cursovaia\\Back-end\\Back-end\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Back-end\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T15:18:19.49Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 830,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
