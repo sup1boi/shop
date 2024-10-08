@@ -20,6 +20,7 @@ const UserHeader: React.FC = () => {
                 </Typography>
                 <Button color="inherit" onClick={() => navigate('/user-items')}>Товары</Button>
                 <Button color="inherit" onClick={() => navigate('/cart')}>Корзина</Button>
+                <Button color="inherit" onClick={() => navigate('/orders')}>Заказы</Button>
                 <Button color="inherit" onClick={() => navigate('/profile')}>Профиль</Button>
                 <Button color="inherit" onClick={handleLogout}>Выйти</Button>
             </Toolbar>

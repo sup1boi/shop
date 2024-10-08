@@ -19,6 +19,7 @@ const AdminHeader: React.FC = () => {
                 </Typography>
                 <Button color="inherit" onClick={() => navigate('/items')}>Товары</Button>
                 <Button color="inherit" onClick={() => navigate('/add-item')}>Добавить товар</Button>
+                <Button color="inherit" onClick={() => navigate('/allorders')}>Заказы</Button>
                 <Button color="inherit" onClick={handleLogout}>Выйти</Button>
             </Toolbar>
         </AppBar>

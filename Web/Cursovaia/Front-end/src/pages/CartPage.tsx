@@ -70,11 +70,7 @@ const CartPage: React.FC = () => {
                 return;
             }
 
-            const response = await axios.post(`https://localhost:7009/api/Cart/checkout`, {}, {
-                headers: {
-                    'Authorization': `Bearer ${userId}`
-                }
-            });
+            const response = await axios.post(`https://localhost:7009/api/Order/add/${userId}`);
 
             if (response.data.success) {
                 setDialogTitle('Заказ оформлен');

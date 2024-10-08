@@ -8,6 +8,8 @@ import EditItemPage from './pages/EditItemPage';
 import UserItemsListPage from './pages/UserItemsListPage';
 import ItemDetailPage from './pages/ItemDetailPage';
 import CartPage from './pages/CartPage';
+import OrdersPage from './pages/OrdersPage';
+import OrdersAdminPage from './pages/OrdersAdminPage';
 import ProfilePage from './pages/ProfilePage';
 import AdminHeader from './components/AdminHeader';
 import UserHeader from './components/UserHeader';
@@ -44,6 +46,10 @@ const App: React.FC = () => {
                             <AdminHeader />
                             <AddItemPage />
                         </>} />
+                        <Route path="/allorders" element={<>
+                            <AdminHeader />
+                            <OrdersAdminPage />
+                        </>} />
                         <Route path="/edit-item/:id" element={<>
                             <AdminHeader />
                             <EditItemPage />
@@ -63,6 +69,10 @@ const App: React.FC = () => {
                         <Route path="/cart" element={<>
                             <UserHeader />
                             <CartPage />
+                        </>} />
+                        <Route path="/orders" element={<>
+                            <UserHeader />
+                            <OrdersPage />
                         </>} />
                         <Route path="/profile" element={<>
                             <UserHeader />
