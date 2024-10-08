@@ -5,7 +5,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 builder.Services.AddDbContext<ShopContext>(options =>
-    options.UseMySql("Server=127.0.0.1;Port=3306;Database=shop;Uid=root;Pwd=SQL_Root;",
+    options.UseMySql("Server=127.0.0.1;Port=3306;charset=utf8mb4;Database=shop;Uid=root;Pwd=SQL_Root;",
         new MySqlServerVersion(new Version(8, 0, 36))));
 
 builder.Services.AddControllers();
