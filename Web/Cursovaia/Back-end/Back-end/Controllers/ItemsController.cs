@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Back_end.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Back_end.Controllers
 {
@@ -41,6 +42,7 @@ namespace Back_end.Controllers
         }
 
         // POST: api/Items
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<Item>> AddItem(Item newItem)
         {
@@ -54,6 +56,7 @@ namespace Back_end.Controllers
         }
 
         // PUT: api/Items/{id}
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateItem(int id, Item updatedItem)
         {
@@ -84,6 +87,7 @@ namespace Back_end.Controllers
         }
 
         // DELETE: api/Items/{id}
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteItem(int id)
         {

@@ -6,6 +6,7 @@ using Back_end.Models;
 using System.Collections.Generic;
 using Mysqlx.Crud;
 using MySqlX.XDevAPI.Common;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Back_end.Controllers
 {
@@ -20,6 +21,7 @@ namespace Back_end.Controllers
             _context = context;
         }
 
+        [Authorize]
         [HttpGet("{userId}")]
         public async Task<ActionResult<IEnumerable<object>>> GetUserOrderItems(int userId)
         {
@@ -64,6 +66,7 @@ namespace Back_end.Controllers
 
 
         // HTTP POST method for creating an order
+        [Authorize]
         [HttpPost("add/{userId}")]
         public async Task<IActionResult> Order(int userId)
         {
@@ -128,6 +131,7 @@ namespace Back_end.Controllers
             return Ok(new { Message = "Заказ успешно создан", OrderId = order.Id });
         }
 
+        [Authorize]
         [HttpGet("GetAllOrders")]
         public async Task<IActionResult> GetAllOrders()
         {

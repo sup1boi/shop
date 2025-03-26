@@ -17,9 +17,11 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin }) => {
             const response = await login_(login, password);
             const role = response.role;
             const userId = response.userId;
+            const tokenKey = response.access_token;
             if (role && userId) {
                 localStorage.setItem('userRole', role);
                 localStorage.setItem('userId', userId);
+                localStorage.setItem('tokenKey', tokenKey);
                 onLogin(role);
                 if (role === 'admin') {
                     navigate('/items');

@@ -9,6 +9,10 @@ public class ShopContext : DbContext
     public DbSet<Cart> Carts { get; set; }
     public DbSet<CartItem> CartItems { get; set; }
 
+    public DbSet<Order> Orders { get; set; }
+
+    public DbSet<OrderItem> OrderItems { get; set; }
+
     public ShopContext(DbContextOptions<ShopContext> options) : base(options) { }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

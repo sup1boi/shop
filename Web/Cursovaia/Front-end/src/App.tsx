@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
@@ -20,6 +21,10 @@ const App: React.FC = () => {
 
     useEffect(() => {
         const role = localStorage.getItem('userRole');
+        const token = localStorage.getItem('tokenKey');
+        axios.defaults.headers.common = {
+            'Authorization': 'Bearer ' + token
+        };
         if (role) {
             setUserRole(role);
         }

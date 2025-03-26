@@ -3,6 +3,9 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using Back_end.Models;
 using Microsoft.Extensions.Logging;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Back_end.Controllers
 {
@@ -58,8 +61,15 @@ namespace Back_end.Controllers
                 return Unauthorized("Invalid login or password");
             }
 
+            var jwt = new JwtSecurityToken(
+            issuer: AuthOptions.ISSUER,
+            audience: AuthOptions.AUDIENCE,
+            expires: DateTime.UtcNow.Add(TimeSpan.FromMinutes(60)),
+            signingCredentials: new SigningCredentials(AuthOptions.GetSymmetricSecurityKey(), SecurityAlgorithms.HmacSha256));
+            var encodedJwt = new JwtSecurityTokenHandler().WriteToken(jwt);
+
             _logger.LogInformation("User {Login} logged in successfully with userId {UserId}", user.Login, user.Id);
-            return Ok(new { role = user.Role, userId = user.Id });
+            return Ok(new { role = user.Role, userId = user.Id , access_token = encodedJwt});
         }
 
         // POST: api/Account/Logout
@@ -72,6 +82,7 @@ namespace Back_end.Controllers
         }
 
         // PUT: api/Account/{id}
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateProfile(int id, UpdateProfileModel model)
         {

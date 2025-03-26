@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Back_end.Models;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Back_end.Controllers
 {
@@ -18,6 +19,7 @@ namespace Back_end.Controllers
             _context = context;
         }
 
+        [Authorize]
         [HttpGet("{userId}")]
         public async Task<ActionResult<IEnumerable<object>>> GetCartItems(int userId)
         {
@@ -50,13 +52,10 @@ namespace Back_end.Controllers
             return Ok(result);
         }
 
+        [Authorize]
         [HttpPost("{itemId}")]
-        public async Task<IActionResult> AddToCart(int itemId, [FromHeader] string Authorization)
+        public async Task<IActionResult> AddToCart(int itemId, int userId)
         {
-            if (string.IsNullOrEmpty(Authorization))
-                return Unauthorized();
-
-            var userId = int.Parse(Authorization.Replace("Bearer ", ""));
             var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UserId == userId);
 
             if (cart == null)
@@ -82,13 +81,11 @@ namespace Back_end.Controllers
             return Ok("Товар добавлен в корзину");
         }
 
+        [Authorize]
         [HttpDelete("{itemId}")]
-        public async Task<IActionResult> RemoveFromCart(int itemId, [FromHeader] string Authorization)
+        public async Task<IActionResult> RemoveFromCart(int itemId, int userId)
         {
-            if (string.IsNullOrEmpty(Authorization))
-                return Unauthorized();
 
-            var userId = int.Parse(Authorization.Replace("Bearer ", ""));
             var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UserId == userId);
 
             if (cart == null)
@@ -104,6 +101,7 @@ namespace Back_end.Controllers
             return Ok("Товар удален из корзины");
         }
 
+        [Authorize]
         [HttpDelete("clear/{userId}")]
         public async Task<IActionResult> ClearCart(int userId)
         {
@@ -119,13 +117,11 @@ namespace Back_end.Controllers
             return Ok("Корзина очищена");
         }
 
+        [Authorize]
         [HttpPost("checkout")]
-        public async Task<IActionResult> Checkout([FromHeader] string Authorization)
+        public async Task<IActionResult> Checkout(int userId)
         {
-            if (string.IsNullOrEmpty(Authorization))
-                return Unauthorized();
 
-            var userId = int.Parse(Authorization.Replace("Bearer ", ""));
             var cart = await _context.Carts.FirstOrDefaultAsync(c => c.UserId == userId);
 
             if (cart == null)

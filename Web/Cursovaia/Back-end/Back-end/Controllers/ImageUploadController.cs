@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.IO;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ namespace Back_end.Controllers
     [Route("api/[controller]")]
     public class ImageUploadController : ControllerBase
     {
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Upload(IFormFile file)
         {

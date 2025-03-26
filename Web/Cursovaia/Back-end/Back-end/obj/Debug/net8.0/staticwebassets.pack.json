@@ -1,47 +1,51 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\ProfImages\\profile.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\ProfImages\\profile.jpg",
       "PackagePath": "staticwebassets\\ProfImages\\profile.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\hdd1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\hdd1.jpg",
       "PackagePath": "staticwebassets\\images\\hdd1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\ssd1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\ssd1.jpg",
       "PackagePath": "staticwebassets\\images\\ssd1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\видео1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\видео1.jpg",
       "PackagePath": "staticwebassets\\images\\видео1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\кулер1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\кулер1.jpg",
       "PackagePath": "staticwebassets\\images\\кулер1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\мат1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\мат1.jpg",
       "PackagePath": "staticwebassets\\images\\мат1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\мышь1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\мышь1.jpg",
       "PackagePath": "staticwebassets\\images\\мышь1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\наушники1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\наушники1.jpg",
       "PackagePath": "staticwebassets\\images\\наушники1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\оперативка1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\оперативка1.jpg",
       "PackagePath": "staticwebassets\\images\\оперативка1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\проц1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\проц1.jpg",
       "PackagePath": "staticwebassets\\images\\проц1.jpg"
     },
     {
-      "Id": "C:\\Users\\user\\Desktop\\бд курсач\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\роутер1.jpg",
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\проц2.jpg",
+      "PackagePath": "staticwebassets\\images\\проц2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\user\\Desktop\\учеба\\курсач\\shop\\Web\\Cursovaia\\Back-end\\Back-end\\wwwroot\\images\\роутер1.jpg",
       "PackagePath": "staticwebassets\\images\\роутер1.jpg"
     },
     {

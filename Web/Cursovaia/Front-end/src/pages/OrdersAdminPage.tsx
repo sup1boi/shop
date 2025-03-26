@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+п»їimport React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Container, Typography, Grid, Card, CardContent } from '@mui/material';
 
@@ -7,7 +7,7 @@ const OrdersAdminPage: React.FC = () => {
 
     const fetchOrders = async () => {
         try {
-            // Получаем заказы пользователя
+            // РџРѕР»СѓС‡Р°РµРј Р·Р°РєР°Р·С‹ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ
             const response = await axios.get(`https://localhost:7009/api/Order/GetAllOrders`);
             setOrders(response.data);
         } catch (error) {
@@ -21,21 +21,21 @@ const OrdersAdminPage: React.FC = () => {
 
     return (
         <Container>
-            <Typography style={{ fontFamily: 'Roboto' }} variant="h6" gutterBottom>
-                Заказы всех покупателей
+            <Typography variant="h4" gutterBottom>
+                Р—Р°РєР°Р·С‹ РІСЃРµС… РїРѕРєСѓРїР°С‚РµР»РµР№
             </Typography>
             {orders.length === 0 ? (
-                <Typography variant="body1">Заказы не найдены</Typography>
+                <Typography variant="body1">Р—Р°РєР°Р·С‹ РЅРµ РЅР°Р№РґРµРЅС‹</Typography>
             ) : (
                 <Grid container spacing={2}>
                     {orders.map((order: any) => (
                         <Grid item xs={12} key={order.orderId}>
                             <Card>
                                 <CardContent>
-                                    <Typography variant="h6">Заказ {order.orderId}</Typography>
-                                    <Typography variant="h6">Логин покупателя {order.login}</Typography>
+                                    <Typography variant="h6">Р—Р°РєР°Р· {order.orderId}</Typography>
+                                    <Typography variant="h6">Р›РѕРіРёРЅ РїРѕРєСѓРїР°С‚РµР»СЏ {order.login}</Typography>
 
-                                    {/* Проверяем наличие товаров в заказе */}
+                                    {/* РџСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ С‚РѕРІР°СЂРѕРІ РІ Р·Р°РєР°Р·Рµ */}
                                     {order.items && order.items.length > 0 ? (
                                         order.items.map((item: any, index: number) => (
                                             <Grid container spacing={2} key={index}>
@@ -44,13 +44,13 @@ const OrdersAdminPage: React.FC = () => {
                                                         {item.productName}
                                                     </Typography>
                                                     <Typography variant="body1">
-                                                        Количество: {item.quantity}
+                                                        РљРѕР»РёС‡РµСЃС‚РІРѕ: {item.quantity}
                                                     </Typography>
                                                 </Grid>
                                             </Grid>
                                         ))
                                     ) : (
-                                        <Typography variant="body2">Товары не найдены</Typography>
+                                        <Typography variant="body2">РўРѕРІР°СЂС‹ РЅРµ РЅР°Р№РґРµРЅС‹</Typography>
                                     )}
                                 </CardContent>
                             </Card>

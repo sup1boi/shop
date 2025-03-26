@@ -6,6 +6,7 @@ interface AuthResponse {
     message: string;
     role?: string;
     userId?: string;
+    access_token: string;
 }
 
 export const register_ = async (login: string, password: string, role: string): Promise<AuthResponse> => {
@@ -17,3 +18,4 @@ export const login_ = async (login: string, password: string): Promise<AuthRespo
     const response = await axios.post<AuthResponse>(`${API_URL}/Login`, { login, password });
     return response.data;
 };
+

@@ -47,9 +47,11 @@ const ItemDetailPage: React.FC = () => {
                 setNotification({ open: true, message: 'Пожалуйста, войдите в систему, чтобы добавить товар в корзину.', severity: 'warning' });
                 return;
             }
-            await axios.post(`https://localhost:7009/api/Cart/${item?.id}`, {}, {
-                headers: {
-                    'Authorization': `Bearer ${userId}`
+            await axios({
+                method: 'post',
+                url: `https://localhost:7009/api/Cart/${item?.id}`,
+                params: {
+                    userId: userId
                 }
             });
             setNotification({ open: true, message: 'Товар добавлен в корзину', severity: 'success' });

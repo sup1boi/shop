@@ -30,10 +30,12 @@ const CartPage: React.FC = () => {
             if (!userId) {
                 throw new Error('User ID not found');
             }
-
-            await axios.delete(`https://localhost:7009/api/Cart/${itemId}`, {
-                headers: {
-                    'Authorization': `Bearer ${userId}`
+            
+            await axios({
+                method: 'delete',
+                url: `https://localhost:7009/api/Cart/${itemId}`,
+                params: {
+                    userId: userId
                 }
             });
             fetchCart();
